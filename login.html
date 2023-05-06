@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><a href="">Dev</a></div>
+        <nav class="navigation">
+            <a href="home.php">Home</a>
+            <a href="about.php">About</a>
+            <a href="services.php">Services</a>
+            <a href="contact.php">Contact</a>
+        </nav>
+    </header>
+    <section >
+        <div class="log-box">
+            <div class="log-box-content">
+                <form action="./login.php" class="log" method="post">
+                    <h2>Login</h2>
+                    <div class="input-box">
+                        <input type="text" required name="username">
+                        <label for="username">Name</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" required name="username">
+                        <label for="username">Password</label>
+                    </div>
+                    <div class="remember">
+                        <label for="remember"><input type="checkbox" name="remember"> Remeber me</label>
+                        <a href="" class="forgot">forgot Password?</a>
+                    </div>
+                    <button class="btn" type="submit">Login</button>
+                    <div class="register"><p>don't have an account? <a href="#">Create Account.</a></p></div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
